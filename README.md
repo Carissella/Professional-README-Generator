@@ -6,10 +6,9 @@
   * [Technologies](#technologies)
   * [Dependencies](#dependencies)
   * [Usage](#usage)
+  * [Walkthrough](#walkthrough)
   * [Contributers](#contributers)
-  * [Test](#test)
   * [License](#license)
-  * [Questions](#questions)
 
   ## Description
 
@@ -36,6 +35,10 @@
  4. Please view and the questions prompted and provide your answers to the questions in the input spaces.
  5. After completing step 4, a README file will generate and be displayed as a file with the name "README-gen.md".
  6. Export the generated README-gen.md file to your corresponding projects files.
+
+ ## Walkthrough
+
+ This section provides a link to the demonstration of the application.
 
  ## Contributers
 
