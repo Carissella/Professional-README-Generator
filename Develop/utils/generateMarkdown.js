@@ -39,9 +39,9 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
 
-  ## Table of Contents 📑
+  ## Table of Contents 
   * [Description](#description)
-  * [Techonologies](#technologies)
+  * [Technologies](#technologies)
   * [Dependencies](#dependencies)
   * [Usage](#usage)
   * [Contributers](#contributers)
