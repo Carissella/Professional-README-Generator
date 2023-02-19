@@ -61,7 +61,7 @@ function generateMarkdown(data) {
   ## Tests 
   Run ${data.test} to test the Readme generator.
   ${renderLicenseSection(data.license)}
-  ${renderLink(data.license)}
+  ${renderLicenseLink(data.license)}
   ## Questions 
   You can visit my Github Profile here: [${data.userName}](https://github.com/${data.userName}/) 
   If you have any questions please email me at ${data.email}
