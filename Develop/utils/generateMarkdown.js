@@ -1,5 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === 'None') {
     return '';
@@ -10,8 +8,7 @@ function renderLicenseBadge(license) {
   } return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+
 function renderLicenseLink(license) {
   if (license === 'None') {
     return ''; 
@@ -24,8 +21,7 @@ function renderLicenseLink(license) {
   return `[${license}](https://www.gnu.org/licenses/gpl-3.0)`;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+
 function renderLicenseSection(license) {
   if (license === 'None') {
     return ''
@@ -34,7 +30,6 @@ function renderLicenseSection(license) {
   Copyright (c)`;
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
@@ -48,23 +43,38 @@ function generateMarkdown(data) {
   * [Test](#test)
   * [License](#license)
   * [Questions](#questions)
+  
   ## Description 
+  
   ${data.description}
+  
   ## Technolgies
+  
   ${data.technologies}
+  
   ## Dependencies  
+  
   ${data.dependencies}
+  
   ## Usage 
+  
   ${data.usage}
+  
   ## Contributers 
+  
   ${data.contributers}
+  
   ## Tests 
+  
   Run ${data.test} to test the Readme generator.
+  
   ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)}
+  
   ## Questions 
+  
   You can visit my Github Profile here: [${data.userName}](https://github.com/${data.userName}/) 
-  If you have any questions please email me at ${data.email}
+  If you have any questions about this repository please email me at ${data.email}
   `;
 }
 

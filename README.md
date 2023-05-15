@@ -1,5 +1,7 @@
 # Professional README Generator
 
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
  ## Table of Contents 
 
   * [Description](#description)
@@ -36,6 +38,10 @@
  5. After completing step 4, a README file will generate and be displayed as a file with the name "README-gen.md".
  6. Export the generated README-gen.md file to your corresponding projects files.
 
+ ## Screenshot
+ ![Screenshot of generated Readme](./Develop/image/2023-05-15%20(1).png)
+ ![Screenshot of code invoking questions in terminal](./Develop/image/2023-05-15%20(2).png)
+ 
  ## Walkthrough
 
  This section provides a link to the demonstration and operation of the application.
@@ -47,3 +53,8 @@
  ## License
 
  Copyright (c) [MIT](https://opensource.org/licences/MIT)
+
+ ## Questions 
+
+  You can visit my Github Profile here: [Carissella](https://github.com/carissella) 
+  If you have any questions please email me at carissebarr.swe@gmail.com
